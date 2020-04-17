@@ -6,4 +6,9 @@ describe ('Person', () => {
   test ('this should test that the persons input is stored into the constructor as their age in Earth years', () => {
     expect(youngPerson.age).toEqual(35);
   });
+
+  test ('this should test for the persons age in Venus years', () => {
+    youngPerson.calcVenus();
+    expect(youngPerson.venusAge).toEqual(0);
+  });
 });
