@@ -14,6 +14,11 @@ _This is a calculator that determines, based on one's age, their actual age on o
 
 ## SPEC Sheet
 
+### _Calculations of a Younger Person:_
+* A method which returns a human's age in Earth years:
+   * Input: user's age (35).
+   * Output: age in Earth years (35).
+
 ## Setup/Installation Requirements
 
 _If you would like to view this project locally... :_
