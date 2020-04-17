@@ -13,6 +13,6 @@ export class Person {
   }
 
   calcMars() {
-    this.marsAge = Math.floor(this.age/.24);
+    this.marsAge = Math.floor(this.age/1.88);
   }
 }
