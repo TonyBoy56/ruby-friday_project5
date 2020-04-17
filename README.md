@@ -23,6 +23,10 @@ _This is a calculator that determines, based on one's age, their actual age on o
    * Input: user's age (35).
    * Output: age in Venus years (56).
 
+* A method which returns a human's age in Mercury years:
+   * Input: user's age (35).
+   * Output: age in Mercury years (145).
+
 ## Setup/Installation Requirements
 
 _If you would like to view this project locally... :_
