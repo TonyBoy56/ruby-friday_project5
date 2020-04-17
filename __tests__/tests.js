@@ -9,6 +9,6 @@ describe ('Person', () => {
 
   test ('this should test for the persons age in Venus years', () => {
     youngPerson.calcVenus();
-    expect(youngPerson.venusAge).toEqual(0);
+    expect(youngPerson.venusAge).toEqual(56);
   });
 });
