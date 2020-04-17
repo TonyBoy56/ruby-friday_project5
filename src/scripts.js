@@ -15,4 +15,10 @@ export class Person {
   calcMars() {
     this.marsAge = Math.floor(this.age/1.88);
   }
+
+  calcJupiter() {
+    this.jupiterAge = Math.floor(this.age/11.86);
+  }
+
+  // Continued Work for Life-Expectancy methods will be done on Sunday Morning. //
 }
