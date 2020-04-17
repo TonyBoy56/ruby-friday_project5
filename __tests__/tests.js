@@ -21,4 +21,11 @@ describe ('Person', () => {
     youngPerson.calcMars();
     expect(youngPerson.marsAge).toEqual(18);
   });
+
+  test ('this should test for the persons age in Jupiter years', () => {
+    youngPerson.calcJupiter();
+    expect(youngPerson.jupiterAge),toEqual(0);
+  });
+
+  // Continued tests for Life-Expectancy of a young person and eldery person will be done on Sunday morning. //
 });
