@@ -11,4 +11,8 @@ export class Person {
   calcMercury() {
     this.mercuryAge = Math.floor(this.age/.24);
   }
+
+  calcMars() {
+    this.marsAge = Math.floor(this.age/.24);
+  }
 }
