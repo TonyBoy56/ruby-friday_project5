@@ -24,14 +24,12 @@ export class Person {
     let timeLeft;
     if (this.age === this.earthAgeLimit) {
       timeLeft = (this.age - this.earthAgeLimit);
-      return timeLeft;
     } else if (this.age > this.earthAgeLimit) {
       variedTime = (this.age - this.earthAgeLimit);
-      return timeLeft;
     } else if (this.age < this.earthAgeLimit) {
       timeLeft = (this.earthAgeLimit - this.age);
-      return timeLeft;
     }
+    return timeLeft;
   }
 
   venusLifeExpectancy() {
@@ -39,14 +37,12 @@ export class Person {
     let timeLeft;
     if (this.venusAge === planetLE) {
       timeLeft = (this.venusAge - planetLE);
-      return timeLeft;
     } else if (this.venusAge > planetLE) {
       timeLeft = (this.venusAge - planetLE);
-      return timeLeft;
     } else if (this.venusAge < planetLE) {
       timeLeft = (planetLE - this.venusAge);
-      return timeLeft;
     }
+    return timeLeft;
   }
   
   mercuryLifeExpectancy() {
@@ -54,14 +50,12 @@ export class Person {
     let timeLeft;
     if (this.mercuryAge === planetLE) {
       timeLeft = (this.mercuryAge - planetLE);
-      return timeLeft;
     } else if (this.mercuryAge > planetLE) {
       timeLeft = (this.mercuryAge - planetLE);
-      return timeLeft;
     } else if (this.mercuryAge < planetLE) {
       timeLeft = (planetLE - this.mercuryAge);
-      return timeLeft;
     }
+    return timeLeft;
   }
 
   marsLifeExpectancy() {
@@ -69,14 +63,12 @@ export class Person {
     let timeLeft;
     if (this.marsAge === planetLE) {
       timeLeft = (this.marsAge - planetLE);
-      return timeLeft;
     } else if (this.marsAge > planetLE) {
       timeLeft = (this.marsAge - planetLE);
-      return timeLeft;
     } else if (this.marsAge < planetLE) {
       timeLeft = (planetLE - this.marsAge);
-      return timeLeft;
     }
+    return timeLeft;
   }
 
   jupiterLifeExpectancy() {
@@ -84,13 +76,11 @@ export class Person {
     let timeLeft;
     if (this.jupiterAge === planetLE) {
       timeLeft = (this.jupiterAge - planetLE);
-      return timeLeft;
     } else if (this.jupiterAge > planetLE) {
       timeLeft = (this.jupiterAge - planetLE);
-      return timeLeft;
     } else if (this.jupiterAge < planetLE) {
       timeLeft = (planetLE - this.jupiterAge);
-      return timeLeft;
     }
+    return timeLeft;
   }
 }
