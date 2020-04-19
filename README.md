@@ -62,7 +62,7 @@ _This is a calculator that determines, based on one's age, their actual age on o
 
 * A method which returns a human's age in Venus years:
    * Input: user's age (90).
-   * Output: age in Venus years ().
+   * Output: age in Venus years (145).
 
 * A method which returns a human's age in Mercury years:
    * Input: user's age (90).
