@@ -101,27 +101,27 @@ describe ('Person', () => {
   let ofTheSameAge = new Person(72);
 
   test ('this should test that the persons input is stored into the constructor as their age in Earth years', () => {
-    expect(ofTheSameAge.age).toEqual(0);
+    expect(ofTheSameAge.age).toEqual(72);
   });
 
   test ('this should test for the persons age in Venus years', () => {
     ofTheSameAge.calcVenus();
-    expect(ofTheSameAge.venusAge).toEqual(0);
+    expect(ofTheSameAge.venusAge).toEqual(116);
   });
 
   test ('this should test for the persons age in Mercury years', () => {
     ofTheSameAge.calcMercury();
-    expect(ofTheSameAge.mercuryAge).toEqual(0);
+    expect(ofTheSameAge.mercuryAge).toEqual(300);
   });
 
   test ('this should test for the persons age in Mars years', () => {
     ofTheSameAge.calcMars();
-    expect(ofTheSameAge.marsAge).toEqual(0);
+    expect(ofTheSameAge.marsAge).toEqual(38);
   });
 
   test ('this should test for the persons age in Jupiter years', () => {
     ofTheSameAge.calcJupiter();
-    expect(ofTheSameAge.jupiterAge).toEqual(0);
+    expect(ofTheSameAge.jupiterAge).toEqual(6);
   });
 
   test ('this should test for the persons time left on Earth', () => {
