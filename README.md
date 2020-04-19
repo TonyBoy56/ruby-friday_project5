@@ -39,6 +39,10 @@ _This is a calculator that determines, based on one's age, their actual age on o
    * Input: users age (35).
    * Output: number of years left (37).
 
+* Determine the user's time left on Venus.
+   * Input: users age (56).
+   * Output: number of years left (60).
+
 <!-- Continued Specs for an Ederly Person and Life-Expectncy methods will be done on Sunday morning. -->
 
 ## Setup/Installation Requirements
