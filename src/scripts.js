@@ -25,7 +25,7 @@ export class Person {
     if (this.age === this.earthAgeLimit) {
       timeLeft = (this.age - this.earthAgeLimit);
     } else if (this.age > this.earthAgeLimit) {
-      variedTime = (this.age - this.earthAgeLimit);
+      timeLeft = (this.age - this.earthAgeLimit);
     } else if (this.age < this.earthAgeLimit) {
       timeLeft = (this.earthAgeLimit - this.age);
     }
