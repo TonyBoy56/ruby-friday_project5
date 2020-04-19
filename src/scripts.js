@@ -19,6 +19,12 @@ export class Person {
   calcJupiter() {
     this.jupiterAge = Math.floor(this.age/11.86);
   }
-
   
+  earthLifeExpectancy() {
+    let timeLeft;
+    if (this.age === this.earthAgeLimit) {
+      timeLeft = (this.age - this.earthAgeLimit);
+      return timeLeft;
+    }
+  }
 }
