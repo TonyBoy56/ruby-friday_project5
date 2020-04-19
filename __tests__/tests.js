@@ -63,7 +63,7 @@ describe ('Person', () => {
 
   test ('this should test for the persons age in Mercury years', () => {
     elderlyPerson.calcMercury();
-    expect(elderlyPerson.mercuryAge).toEqual(0);
+    expect(elderlyPerson.mercuryAge).toEqual(375);
   });
 
   // test ('this should test for the persons age in Mars years', () => {
