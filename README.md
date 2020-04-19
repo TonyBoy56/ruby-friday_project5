@@ -55,6 +55,47 @@ _This is a calculator that determines, based on one's age, their actual age on o
    * Input: users age (2).
    * Output: number of years left (4).
 
+### _Calculations of an Older Person:_
+* A method which returns a human's age in Earth years:
+   * Input: user's age (90).
+   * Output: age in Earth years (90).
+
+* A method which returns a human's age in Venus years:
+   * Input: user's age (90).
+   * Output: age in Venus years ().
+
+* A method which returns a human's age in Mercury years:
+   * Input: user's age (90).
+   * Output: age in Mercury years ().
+
+* A method which returns a human's age in Mars years:
+   * Input: user's age (90).
+   * Output: age in Mars years ().
+
+* A method which returns a human's age in Jupiter years:
+   * Input: user's age (90).
+   * Output: age in Jupiter years ().
+
+* Determine the user's time lived passed LE on Earth.
+   * Input: users age (90).
+   * Output: number of years left ().
+
+* Determine the user's time lived passed LE on Venus.
+   * Input: users age (90).
+   * Output: number of years left ().
+
+* Determine the user's time lived passed LE on Mercury.
+   * Input: users age (90).
+   * Output: number of years left ().
+
+* Determine the user's time lived passed LE on Mars.
+   * Input: users age (90).
+   * Output: number of years left ().
+
+* Determine the user's time lived passed LE on Jupiter.
+   * Input: users age (90).
+   * Output: number of years left ().
+
 <!-- Continued Specs for an Ederly Person and Life-Expectncy methods will be done on Sunday morning. -->
 
 ## Setup/Installation Requirements
