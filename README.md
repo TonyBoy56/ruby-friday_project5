@@ -94,7 +94,7 @@ _This is a calculator that determines, based on one's age, their actual age on o
 
 * Determine the user's time lived passed LE on Jupiter.
    * Input: users age (90).
-   * Output: number of years left ().
+   * Output: number of years left (1).
 
 <!-- Continued Specs for an Ederly Person and Life-Expectncy methods will be done on Sunday morning. -->
 
