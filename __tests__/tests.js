@@ -27,5 +27,7 @@ describe ('Person', () => {
     expect(youngPerson.jupiterAge).toEqual(2);
   });
 
-  // Continued tests for Life-Expectancy of a young person and eldery person will be done on Sunday morning. //
+  test ('this should test for the users time left on Earth', () => {
+    expect();
+  });
 });
