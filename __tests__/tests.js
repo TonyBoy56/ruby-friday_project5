@@ -40,6 +40,6 @@ describe ('Person', () => {
   });
 
   test ('should test for the persons time left on Mars', () => {
-    expect(youngPerson.marsLifeExpectancy()).toEqual(0);
+    expect(youngPerson.marsLifeExpectancy()).toEqual(20);
   });
 });
