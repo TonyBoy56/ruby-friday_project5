@@ -66,10 +66,10 @@ describe ('Person', () => {
     expect(elderlyPerson.mercuryAge).toEqual(375);
   });
 
-  // test ('this should test for the persons age in Mars years', () => {
-  //   elderlyPerson.calcMars();
-  //   expect(elderlyPerson.marsAge).toEqual(0);
-  // });
+  test ('this should test for the persons age in Mars years', () => {
+    elderlyPerson.calcMars();
+    expect(elderlyPerson.marsAge).toEqual(0);
+  });
 
   // test ('this should test for the persons age in Jupiter years', () => {
   //   elderlyPerson.calcJupiter();
