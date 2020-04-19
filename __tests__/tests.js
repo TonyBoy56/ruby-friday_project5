@@ -96,3 +96,51 @@ describe ('Person', () => {
     expect(elderlyPerson.jupiterLifeExpectancy()).toEqual(1);
   });
 });
+
+describe ('Person', () => {
+  let ofTheSameAge = new Person(72);
+
+  test ('this should test that the persons input is stored into the constructor as their age in Earth years', () => {
+    expect(ofTheSameAge.age).toEqual(0);
+  });
+
+  test ('this should test for the persons age in Venus years', () => {
+    ofTheSameAge.calcVenus();
+    expect(ofTheSameAge.venusAge).toEqual(0);
+  });
+
+  test ('this should test for the persons age in Mercury years', () => {
+    ofTheSameAge.calcMercury();
+    expect(ofTheSameAge.mercuryAge).toEqual(0);
+  });
+
+  test ('this should test for the persons age in Mars years', () => {
+    ofTheSameAge.calcMars();
+    expect(ofTheSameAge.marsAge).toEqual(0);
+  });
+
+  test ('this should test for the persons age in Jupiter years', () => {
+    ofTheSameAge.calcJupiter();
+    expect(ofTheSameAge.jupiterAge).toEqual(0);
+  });
+
+  test ('this should test for the persons time left on Earth', () => {
+    expect(ofTheSameAge.earthLifeExpectancy()).toEqual(0);
+  });
+
+  test ('this should test for the persons time left on Venus', () => {
+    expect(ofTheSameAge.venusLifeExpectancy()).toEqual(0);
+  });
+
+  test ('this should test for the persons time left on Mercury', () => {
+    expect(ofTheSameAge.mercuryLifeExpectancy()).toEqual(0);
+  });
+
+  test ('should test for the persons time left on Mars', () => {
+    expect(ofTheSameAge.marsLifeExpectancy()).toEqual(0);
+  });
+
+  test ('this should test for the persons time left on Jupiter', () => {
+    expect(ofTheSameAge.jupiterLifeExpectancy()).toEqual(0);
+  });
+});
