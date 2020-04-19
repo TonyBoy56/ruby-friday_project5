@@ -33,4 +33,19 @@ export class Person {
       return timeLeft;
     }
   }
+
+  venusLifeExpectancy() {
+    const planetLE = 116;
+    let timeLeft;
+    if (this.venusAge === planetLE) {
+      timeLeft = (this.venusAge - planetLE);
+      return timeLeft;
+    } else if (this.venusAge > planetLE) {
+      timeLeft = (this.venusAge - planetLE);
+      return timeLeft;
+    } else if (this.venusAge < planetLE) {
+      timeLeft = (planetLE - this.venusAge);
+      return timeLeft;
+    }
+  }
 }
