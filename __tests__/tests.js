@@ -92,7 +92,7 @@ describe ('Person', () => {
     expect(elderlyPerson.marsLifeExpectancy()).toEqual(9);
   });
 
-  // test ('this should test for the persons time left on Jupiter', () => {
-  //   expect(elderlyPerson.jupiterLifeExpectancy()).toEqual(0);
-  // });
+  test ('this should test for the persons time left on Jupiter', () => {
+    expect(elderlyPerson.jupiterLifeExpectancy()).toEqual(0);
+  });
 });
