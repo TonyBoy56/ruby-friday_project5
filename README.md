@@ -70,7 +70,7 @@ _This is a calculator that determines, based on one's age, their actual age on o
 
 * A method which returns a human's age in Mars years:
    * Input: user's age (90).
-   * Output: age in Mars years ().
+   * Output: age in Mars years (47).
 
 * A method which returns a human's age in Jupiter years:
    * Input: user's age (90).
