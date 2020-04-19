@@ -86,7 +86,7 @@ _This is a calculator that determines, based on one's age, their actual age on o
 
 * Determine the user's time lived passed LE on Mercury.
    * Input: users age (90).
-   * Output: number of years left ().
+   * Output: number of years left (75).
 
 * Determine the user's time lived passed LE on Mars.
    * Input: users age (90).
