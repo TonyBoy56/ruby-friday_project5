@@ -104,19 +104,19 @@ _This is a calculator that determines, based on one's age, their actual age on o
 
 * A method which returns a human's age in Venus years:
    * Input: user's age (72).
-   * Output: age in Venus years (0).
+   * Output: age in Venus years (116).
 
 * A method which returns a human's age in Mercury years:
    * Input: user's age (72).
-   * Output: age in Mercury years (0).
+   * Output: age in Mercury years (300).
 
 * A method which returns a human's age in Mars years:
    * Input: user's age (72).
-   * Output: age in Mars years (0).
+   * Output: age in Mars years (38).
 
 * A method which returns a human's age in Jupiter years:
    * Input: user's age (72).
-   * Output: age in Jupiter years (0).
+   * Output: age in Jupiter years (6).
 
 * Determine the user's difference in LE and current age on Earth as nothing.
    * Input: users age (72).
