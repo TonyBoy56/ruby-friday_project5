@@ -47,6 +47,10 @@ _This is a calculator that determines, based on one's age, their actual age on o
    * Input: users age (145).
    * Output: number of years left (155).
 
+* Determine the user's time left on Mars.
+   * Input: users age (18).
+   * Output: number of years left (20).
+
 <!-- Continued Specs for an Ederly Person and Life-Expectncy methods will be done on Sunday morning. -->
 
 ## Setup/Installation Requirements
