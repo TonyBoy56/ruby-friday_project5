@@ -6,10 +6,6 @@
 
 ## Description
 
-_Link to github repo_
-
-_https://github.com/assassin56/ruby-friday_project5_\
-
 _This is a calculator that determines, based on one's age, their actual age on other planets. Among this interesting fact, it will also tell you your life expectancy on those planets, and whether or not you surpassed that value._
 
 ## SPEC Sheet
