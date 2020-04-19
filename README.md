@@ -90,7 +90,7 @@ _This is a calculator that determines, based on one's age, their actual age on o
 
 * Determine the user's time lived passed LE on Mars.
    * Input: users age (90).
-   * Output: number of years left ().
+   * Output: number of years left (9).
 
 * Determine the user's time lived passed LE on Jupiter.
    * Input: users age (90).
