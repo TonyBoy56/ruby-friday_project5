@@ -76,9 +76,9 @@ describe ('Person', () => {
     expect(elderlyPerson.jupiterAge).toEqual(7);
   });
 
-  // test ('this should test for the persons time left on Earth', () => {
-  //   expect(elderlyPerson.earthLifeExpectancy()).toEqual(0);
-  // });
+  test ('this should test for the persons time left on Earth', () => {
+    expect(elderlyPerson.earthLifeExpectancy()).toEqual(0);
+  });
 
   // test ('this should test for the persons time left on Venus', () => {
   //   expect(elderlyPerson.venusLifeExpectancy()).toEqual(0);
