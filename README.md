@@ -74,7 +74,7 @@ _This is a calculator that determines, based on one's age, their actual age on o
 
 * A method which returns a human's age in Jupiter years:
    * Input: user's age (90).
-   * Output: age in Jupiter years ().
+   * Output: age in Jupiter years (7).
 
 * Determine the user's time lived passed LE on Earth.
    * Input: users age (90).
