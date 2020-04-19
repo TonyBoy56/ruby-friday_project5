@@ -42,4 +42,8 @@ describe ('Person', () => {
   test ('should test for the persons time left on Mars', () => {
     expect(youngPerson.marsLifeExpectancy()).toEqual(20);
   });
+
+  test ('this should test for the persons time left on Jupiter', () => {
+    expect(youngPerson.jupiterLifeExpectancy()).toEqual(0);
+  });
 });
