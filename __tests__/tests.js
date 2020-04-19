@@ -97,6 +97,7 @@ describe ('Person', () => {
   });
 });
 
+// Test for a person of the same age as the Life-Expectancy on each planet. //
 describe ('Person', () => {
   let ofTheSameAge = new Person(72);
 
