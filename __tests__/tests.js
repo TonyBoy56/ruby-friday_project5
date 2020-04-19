@@ -56,10 +56,10 @@ describe ('Person', () => {
     expect(elderlyPerson.age).toEqual(90);
   });
 
-  // test ('this should test for the persons age in Venus years', () => {
-  //   elderlyPerson.calcVenus();
-  //   expect(elderlyPerson.venusAge).toEqual(0);
-  // });
+  test ('this should test for the persons age in Venus years', () => {
+    elderlyPerson.calcVenus();
+    expect(elderlyPerson.venusAge).toEqual(0);
+  });
 
   // test ('this should test for the persons age in Mercury years', () => {
   //   elderlyPerson.calcMercury();
