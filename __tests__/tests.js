@@ -49,50 +49,50 @@ describe ('Person', () => {
 });
 
 // Tests for a person older than the Life Expectancy on each planet. //
-describe ('User', () => {
-  let elderlyPerson = new User(90);
+describe ('Person', () => {
+  let elderlyPerson = new Person(90);
 
   test ('this should test that the persons input is stored into the constructor as their age in Earth years', () => {
-    expect(youngPerson.age).toEqual(0);
+    expect(elderlyPerson.age).toEqual(0);
   });
 
   // test ('this should test for the persons age in Venus years', () => {
-  //   youngPerson.calcVenus();
-  //   expect(youngPerson.venusAge).toEqual(0);
+  //   elderlyPerson.calcVenus();
+  //   expect(elderlyPerson.venusAge).toEqual(0);
   // });
 
   // test ('this should test for the persons age in Mercury years', () => {
-  //   youngPerson.calcMercury();
-  //   expect(youngPerson.mercuryAge).toEqual(0);
+  //   elderlyPerson.calcMercury();
+  //   expect(elderlyPerson.mercuryAge).toEqual(0);
   // });
 
   // test ('this should test for the persons age in Mars years', () => {
-  //   youngPerson.calcMars();
-  //   expect(youngPerson.marsAge).toEqual(0);
+  //   elderlyPerson.calcMars();
+  //   expect(elderlyPerson.marsAge).toEqual(0);
   // });
 
   // test ('this should test for the persons age in Jupiter years', () => {
-  //   youngPerson.calcJupiter();
-  //   expect(youngPerson.jupiterAge).toEqual(0);
+  //   elderlyPerson.calcJupiter();
+  //   expect(elderlyPerson.jupiterAge).toEqual(0);
   // });
 
   // test ('this should test for the persons time left on Earth', () => {
-  //   expect(youngPerson.earthLifeExpectancy()).toEqual(0);
+  //   expect(elderlyPerson.earthLifeExpectancy()).toEqual(0);
   // });
 
   // test ('this should test for the persons time left on Venus', () => {
-  //   expect(youngPerson.venusLifeExpectancy()).toEqual(0);
+  //   expect(elderlyPerson.venusLifeExpectancy()).toEqual(0);
   // });
 
   // test ('this should test for the persons time left on Mercury', () => {
-  //   expect(youngPerson.mercuryLifeExpectancy()).toEqual(0);
+  //   expect(elderlyPerson.mercuryLifeExpectancy()).toEqual(0);
   // });
 
   // test ('should test for the persons time left on Mars', () => {
-  //   expect(youngPerson.marsLifeExpectancy()).toEqual(0);
+  //   expect(elderlyPerson.marsLifeExpectancy()).toEqual(0);
   // });
 
   // test ('this should test for the persons time left on Jupiter', () => {
-  //   expect(youngPerson.jupiterLifeExpectancy()).toEqual(0);
+  //   expect(elderlyPerson.jupiterLifeExpectancy()).toEqual(0);
   // });
 });
