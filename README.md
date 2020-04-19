@@ -51,6 +51,10 @@ _This is a calculator that determines, based on one's age, their actual age on o
    * Input: users age (18).
    * Output: number of years left (20).
 
+* Determine the user's time left on Jupiter.
+   * Input: users age (2).
+   * Output: number of years left (4).
+
 <!-- Continued Specs for an Ederly Person and Life-Expectncy methods will be done on Sunday morning. -->
 
 ## Setup/Installation Requirements
