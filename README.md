@@ -96,7 +96,47 @@ _This is a calculator that determines, based on one's age, their actual age on o
    * Input: users age (90).
    * Output: number of years left (1).
 
-<!-- Continued Specs for an Ederly Person and Life-Expectncy methods will be done on Sunday morning. -->
+### _Calculations of a person of the same age as the LE on each planet:_
+
+* A method which returns a human's age in Earth years:
+   * Input: user's age (72).
+   * Output: age in Earth years (72).
+
+* A method which returns a human's age in Venus years:
+   * Input: user's age (72).
+   * Output: age in Venus years (0).
+
+* A method which returns a human's age in Mercury years:
+   * Input: user's age (72).
+   * Output: age in Mercury years (0).
+
+* A method which returns a human's age in Mars years:
+   * Input: user's age (72).
+   * Output: age in Mars years (0).
+
+* A method which returns a human's age in Jupiter years:
+   * Input: user's age (72).
+   * Output: age in Jupiter years (0).
+
+* Determine the user's difference in LE and current age on Earth as nothing.
+   * Input: users age (72).
+   * Output: Difference between their age and the LE on this planet. (0).
+
+* Determine the user's difference in LE and current age on Venus as nothing.
+   * Input: users age (116).
+   * Output: Difference between their age and the LE on this planet. (0).
+
+* Determine the user's difference in LE and current age on Mercury as nothing.
+   * Input: users age (300).
+   * Output: Difference between their age and the LE on this planet. (0).
+
+* Determine the user's difference in LE and current age on Mars as nothing.
+   * Input: users age (38).
+   * Output: Difference between their age and the LE on this planet. (0).
+
+* Determine the user's difference in LE and current age on Jupiter as nothing.
+   * Input: users age (6).
+   * Output: Difference between their age and the LE on this planet. (0).
 
 ## Setup/Installation Requirements
 
