@@ -27,11 +27,15 @@ describe ('Person', () => {
     expect(youngPerson.jupiterAge).toEqual(2);
   });
 
-  test ('this should test for the users time left on Earth', () => {
+  test ('this should test for the persons time left on Earth', () => {
     expect(youngPerson.earthLifeExpectancy()).toEqual(37);
   });
 
-  test ('this should test for the users time left on Venus', () => {
+  test ('this should test for the persons time left on Venus', () => {
     expect(youngPerson.venusLifeExpectancy()).toEqual(60);
+  });
+
+  test ('this should test for the persons time left on Mercury', () => {
+    expect(youngPerson.mercuryLifeExpectancy()).toEqual(0);
   });
 });
