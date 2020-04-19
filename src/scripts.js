@@ -63,4 +63,19 @@ export class Person {
       return timeLeft;
     }
   }
+
+  marsLifeExpectancy() {
+    const planetLE = 38;
+    let timeLeft;
+    if (this.marsAge === planetLE) {
+      timeLeft = (this.marsAge - planetLE);
+      return timeLeft;
+    } else if (this.marsAge > planetLE) {
+      timeLeft = (this.marsAge - planetLE);
+      return timeLeft;
+    } else if (this.marsAge < planetLE) {
+      timeLeft = (planetLE - this.marsAge);
+      return timeLeft;
+    }
+  }
 }
