@@ -53,7 +53,7 @@ describe ('Person', () => {
   let elderlyPerson = new Person(90);
 
   test ('this should test that the persons input is stored into the constructor as their age in Earth years', () => {
-    expect(elderlyPerson.age).toEqual(0);
+    expect(elderlyPerson.age).toEqual(90);
   });
 
   // test ('this should test for the persons age in Venus years', () => {
