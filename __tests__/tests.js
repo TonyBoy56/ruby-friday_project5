@@ -71,10 +71,10 @@ describe ('Person', () => {
     expect(elderlyPerson.marsAge).toEqual(47);
   });
 
-  // test ('this should test for the persons age in Jupiter years', () => {
-  //   elderlyPerson.calcJupiter();
-  //   expect(elderlyPerson.jupiterAge).toEqual(0);
-  // });
+  test ('this should test for the persons age in Jupiter years', () => {
+    elderlyPerson.calcJupiter();
+    expect(elderlyPerson.jupiterAge).toEqual(0);
+  });
 
   // test ('this should test for the persons time left on Earth', () => {
   //   expect(elderlyPerson.earthLifeExpectancy()).toEqual(0);
